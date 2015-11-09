@@ -1,3 +1,158 @@
+e0f4272 (HEAD -> master, origin/master, origin/HEAD) initial commit sgminer 5.1.2 updated neoscrypt kernel
+8bf1c18 Merge pull request #418 from bitbandi/diffbug
+d0881e8 store the next difficulty
+666641b Removed patch_kernel.* from MSVS project.
+5fe8555 Merge pull request #414 from wolf9466/master
+e59c616 When my WhirlpoolX code was checked in, I used C99 features that cause SGMiner to not compile without -std=c99, -std=gnu99, or better. The latter must be used because of other code in SGMiner. Also removed the old, useless -fno-strict-aliasing flag that seems to date back to cpuminer...
+55da7b5 Removed bitalign/opcode patching code. It's dead, and no one else is gonna do it.
+c536243 Merge pull request #412 from netswift/master
+e729bd0 Updated the compilation instructions.
+632ea79 Merge remote-tracking branch 'sgminer-dev/master'
+7811d37 Renamed Lyra2 OpenCL kernel files to make them accessible in Linux also.
+137519d Merge branch 'wolf-whirlpoolx'
+1854e96 Reverted create_opencl_command_queue
+f157dd9 Fixed uninitialized key array.
+fe62dc7 wolf's improvements #2
+ae87ca6 wolf's whirlpoolx mod
+f1bf570 Merge pull request #411 from badman74/master
+c50e3d2 added some changes after refork
+8cb4fc9 Added Pluck algo
+8d68e96 Added Lyra2RE algo
+f366619 (tag: 5.1.1) Version bump to 5.1.1
+89c380a Added WhirlpoolX algorithm
+f27f8dd Merge pull request #408 from nwoolls/bug/clang-inline-errors
+cd9d037 Fix errors compiling on OS X
+387bb28 (tag: 5.1.0) Neoscrypt fixes
+4ced43b MSVS fix.
+4ba8a68 Merged develop branch with master +updates
+7f88bab Fixed missing declaration.
+81d9c9e Events framework
+611b370 Fix for random HW errors
+8a6168f Fix for UI/API intensity changes
+42737ac Added Neoscrypt with Wolf9466 improvements.
+0557017 Merge branch 'master' of https://github.com/sgminer-dev/sgminer
+c0515e8 Added alt kernel file option
+95134c7 Merge pull request #399 from Phoenix48/patch-2
+ce36358 Update windows-build.txt
+2fe4551 Update windows-build.txt
+1005853 Update windows-build.txt
+b53cc15 Fix worksize per GPU
+ba9818a Fix version display in windows builds (mingw)
+32d95dd (tag: 5.0.1) Updated to MSVS 2013
+e481d67 MSVS fix.
+247d70e more algo optimization
+9603479 Cleanup X11/X13 options
+c3e1842 Added documentation for Xn algorithm options
+b3c07ac Xn Algorithms Fine Tuning
+a90bbf7 Added "Fresh" Algorithm and optimized it for a slight speed increase using extra kernels.
+eb2ad8b (tag: 5.0.0) Removed AMD APP SDK include files.
+e39121b Version bump for MSVS project.
+0ec4912 update changelog for v5 release
+:...skipping...
+e0f4272 (HEAD -> master, origin/master, origin/HEAD) initial commit sgminer 5.1.2 updated neoscrypt kernel                                    
+8bf1c18 Merge pull request #418 from bitbandi/diffbug
+d0881e8 store the next difficulty
+666641b Removed patch_kernel.* from MSVS project.
+5fe8555 Merge pull request #414 from wolf9466/master
+e59c616 When my WhirlpoolX code was checked in, I used C99 features that cause SGMiner to not compile without -std=c99, -std=gnu99, or better. The latter must be used because of other code in SGMiner. Also removed the old, useless -fno-strict-aliasing flag that seems to date back to cpuminer...
+55da7b5 Removed bitalign/opcode patching code. It's dead, and no one else is gonna do it.
+c536243 Merge pull request #412 from netswift/master
+e729bd0 Updated the compilation instructions.
+632ea79 Merge remote-tracking branch 'sgminer-dev/master'
+7811d37 Renamed Lyra2 OpenCL kernel files to make them accessible in Linux also.
+137519d Merge branch 'wolf-whirlpoolx'
+1854e96 Reverted create_opencl_command_queue
+f157dd9 Fixed uninitialized key array.
+fe62dc7 wolf's improvements #2
+ae87ca6 wolf's whirlpoolx mod
+f1bf570 Merge pull request #411 from badman74/master
+c50e3d2 added some changes after refork
+8cb4fc9 Added Pluck algo
+8d68e96 Added Lyra2RE algo
+f366619 (tag: 5.1.1) Version bump to 5.1.1
+89c380a Added WhirlpoolX algorithm
+f27f8dd Merge pull request #408 from nwoolls/bug/clang-inline-errors
+cd9d037 Fix errors compiling on OS X
+387bb28 (tag: 5.1.0) Neoscrypt fixes
+4ced43b MSVS fix.
+4ba8a68 Merged develop branch with master +updates
+7f88bab Fixed missing declaration.
+81d9c9e Events framework
+611b370 Fix for random HW errors
+8a6168f Fix for UI/API intensity changes
+42737ac Added Neoscrypt with Wolf9466 improvements.
+0557017 Merge branch 'master' of https://github.com/sgminer-dev/sgminer
+c0515e8 Added alt kernel file option
+95134c7 Merge pull request #399 from Phoenix48/patch-2
+ce36358 Update windows-build.txt
+2fe4551 Update windows-build.txt
+1005853 Update windows-build.txt
+b53cc15 Fix worksize per GPU
+ba9818a Fix version display in windows builds (mingw)
+32d95dd (tag: 5.0.1) Updated to MSVS 2013
+e481d67 MSVS fix.
+247d70e more algo optimization
+9603479 Cleanup X11/X13 options
+c3e1842 Added documentation for Xn algorithm options
+b3c07ac Xn Algorithms Fine Tuning
+a90bbf7 Added "Fresh" Algorithm and optimized it for a slight speed increase using extra kernels.
+eb2ad8b (tag: 5.0.0) Removed AMD APP SDK include files.
+e39121b Version bump for MSVS project.
+0ec4912 update changelog for v5 release
+7a16f78 bump version to 5.0.0, update changelog
+:...skipping...
+e0f4272 (HEAD -> master, origin/master, origin/HEAD) initial commit sgminer 5.1.2 updated neoscrypt kernel                                    
+8bf1c18 Merge pull request #418 from bitbandi/diffbug
+d0881e8 store the next difficulty
+666641b Removed patch_kernel.* from MSVS project.
+5fe8555 Merge pull request #414 from wolf9466/master
+e59c616 When my WhirlpoolX code was checked in, I used C99 features that cause SGMiner to not compile without -std=c99, -std=gnu99, or better. The latter must be used because of other code in SGMiner. Also removed the old, useless -fno-strict-aliasing flag that seems to date back to cpuminer...
+55da7b5 Removed bitalign/opcode patching code. It's dead, and no one else is gonna do it.
+c536243 Merge pull request #412 from netswift/master
+e729bd0 Updated the compilation instructions.
+632ea79 Merge remote-tracking branch 'sgminer-dev/master'
+7811d37 Renamed Lyra2 OpenCL kernel files to make them accessible in Linux also.
+137519d Merge branch 'wolf-whirlpoolx'
+1854e96 Reverted create_opencl_command_queue
+f157dd9 Fixed uninitialized key array.
+fe62dc7 wolf's improvements #2
+ae87ca6 wolf's whirlpoolx mod
+f1bf570 Merge pull request #411 from badman74/master
+c50e3d2 added some changes after refork
+8cb4fc9 Added Pluck algo
+8d68e96 Added Lyra2RE algo
+f366619 (tag: 5.1.1) Version bump to 5.1.1
+89c380a Added WhirlpoolX algorithm
+f27f8dd Merge pull request #408 from nwoolls/bug/clang-inline-errors
+cd9d037 Fix errors compiling on OS X
+387bb28 (tag: 5.1.0) Neoscrypt fixes
+4ced43b MSVS fix.
+4ba8a68 Merged develop branch with master +updates
+7f88bab Fixed missing declaration.
+81d9c9e Events framework
+611b370 Fix for random HW errors
+8a6168f Fix for UI/API intensity changes
+42737ac Added Neoscrypt with Wolf9466 improvements.
+0557017 Merge branch 'master' of https://github.com/sgminer-dev/sgminer
+c0515e8 Added alt kernel file option
+95134c7 Merge pull request #399 from Phoenix48/patch-2
+ce36358 Update windows-build.txt
+2fe4551 Update windows-build.txt
+1005853 Update windows-build.txt
+b53cc15 Fix worksize per GPU
+ba9818a Fix version display in windows builds (mingw)
+32d95dd (tag: 5.0.1) Updated to MSVS 2013
+e481d67 MSVS fix.
+247d70e more algo optimization
+9603479 Cleanup X11/X13 options
+c3e1842 Added documentation for Xn algorithm options
+b3c07ac Xn Algorithms Fine Tuning
+a90bbf7 Added "Fresh" Algorithm and optimized it for a slight speed increase using extra kernels.
+eb2ad8b (tag: 5.0.0) Removed AMD APP SDK include files.
+e39121b Version bump for MSVS project.
+0ec4912 update changelog for v5 release
+7a16f78 bump version to 5.0.0, update changelog
+447dd68 Merge branch 'v5_0'
 Updated on tor  2 sep 2014 22:34:56 CEST.
 If working with git, use `git log --oneline --decorate` for latest change log.
 ------------------------------------------------------------------------

@@ -1,4 +1,10 @@
 # Release news
+## Version 5.1.2 - November 2015
+
+## add neoscrypt kernel optional files for R9 280  or 79** compilation. Gives boost over v2, v1 is also included. 
+
+## Version 5.1.1 - November 2014
+* updated support for neoscrypt kernel (added 5.1.0)
 
 ## Version 5.0.0 - 2nd September 2014
 
